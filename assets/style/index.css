@@ -5,3 +5,44 @@
   margin-inline: auto;
   width: min(100% - 30px, 1080px);
 }
+
+.flex {
+  display: flex;
+}
+
+/* header */
+header {
+  font-size: 0px;
+  height: 50px;
+  line-height: 50px;
+}
+
+header .flex {
+  justify-content: space-between;
+}
+
+header .header-title h1 {
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+header .header-menu nav ul li {
+  display: inline;
+}
+
+header .header-menu nav ul li + li {
+  margin-left: 15px;
+}
+
+header .header-menu nav ul li a {
+  font-size: 20px;
+}
+
+/* main */
+main {
+  background-image: url('../image/hero-banner.jpg');
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(100vh - 50px);
+}

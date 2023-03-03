@@ -5,3 +5,12 @@
   margin-inline: auto;
   width: min(100% - 30px, 1080px);
 }
+
+/* main */
+main {
+  background-image: url('../image/hero-banner.jpg');
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(100vh - 50px);
+}
